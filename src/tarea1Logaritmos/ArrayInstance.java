@@ -38,6 +38,6 @@ public class ArrayInstance {
 		String r="";
 		for(int i=0;i<a.length;i++)
 			r+=a[i]+",";
-		return r;
+		return r.substring(0, r.length()-1);
 	}
 }
